@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "GeoDriver",
+    "slug": "GeoDriver",
+    "icon": "./assets/images/icon.png",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "image": "./assets/images/splash.png"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2f80ed",
+        "backgroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "package": "com.anonymous.GeoDriver"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "server"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://geodriver.com/"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
